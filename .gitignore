@@ -1,0 +1,29 @@
+/.idea
+/.vscode
+*.log
+
+# 环境与密钥（绝不提交）
+.env
+.env.local
+*.pem
+*.key
+
+# 运行缓存
+/runtime/*
+!/runtime/.gitignore
+
+# 用户上传内容
+/public/uploads/
+/public/LightPicture/
+
+# 备份与临时文件
+_backups/
+*.bak
+*.bak_*
+*.swp
+*.tmp
+*.zip
+
+# 编辑器/系统
+.DS_Store
+Thumbs.db
